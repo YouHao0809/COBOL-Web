@@ -1,43 +1,46 @@
 <template>
-  <a-tabs type="card" :defaultActiveKey="defaultTab">
-    <a-tab-pane tab="命令行" key="cmd"><CMD /></a-tab-pane>
-    <a-tab-pane tab="JCL" key="jcl"><JCL /></a-tab-pane>
-    <a-tab-pane tab="REXX" key="rexx"><REXX /></a-tab-pane>
-  </a-tabs>
+    <a-tabs :defaultActiveKey="defaultTab" type="card">
+        <a-tab-pane key="cmd" tab="命令行">
+            <CMD/>
+        </a-tab-pane>
+        <a-tab-pane key="jcl" tab="JCL">
+            <JCL/>
+        </a-tab-pane>
+    </a-tabs>
 </template>
 
 <script>
-import CMD from "./CMD";
-import JCL from "./JCL";
-import REXX from "./REXX";
-// remove warning of async-validator used by a-form
-// ref: https://github.com/yiminghe/async-validator#how-to-avoid-warning
-import Schema from "async-validator";
-Schema.warning = function() {};
+  import CMD from "./CMD";
+  import JCL from "./JCL";
+  // remove warning of async-validator used by a-form
+  // ref: https://github.com/yiminghe/async-validator#how-to-avoid-warning
+  import Schema from "async-validator";
 
-export default {
-  components: {
-    CMD,
-    JCL,
-    REXX
-  },
-  props: {
-    defaultTab: {
-      type: String,
-      default: "cmd"
-    }
-  },
-  data() {
-    return {};
-  },
+  Schema.warning = function () {
+    };
 
-  methods: {}
-};
+    export default {
+        components: {
+            CMD,
+            JCL
+        },
+        props: {
+            defaultTab: {
+                type: String,
+                default: "cmd"
+            }
+        },
+        data() {
+            return {};
+        },
+
+        methods: {}
+    };
 </script>
 
 <style>
-.ant-tabs-tab {
-  min-width: 80px;
-  text-align: center;
-}
+    .ant-tabs-tab {
+        min-width: 80px;
+        text-align: center;
+    }
 </style>

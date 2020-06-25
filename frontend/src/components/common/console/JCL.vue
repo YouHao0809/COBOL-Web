@@ -25,15 +25,24 @@
               ]
             }
           ]"
-
                 />
             </a-form-item>
             <a-form-item>
                 <a-button-group>
-                    <a-button :loading="isLoading"  @click="cleanText()" icon="edit" default>
+                    <a-button
+                            :loading="isLoading"
+                            @click="cleanText()"
+                            default
+                            icon="edit"
+                    >
                         清空JCL
                     </a-button>
-                    <a-button :loading="isLoading" html-type="submit" icon="caret-up" type="primary">
+                    <a-button
+                            :loading="isLoading"
+                            html-type="submit"
+                            icon="caret-up"
+                            type="primary"
+                    >
                         提交JCL
                     </a-button>
                 </a-button-group>
@@ -53,8 +62,8 @@
                 Click or drag file to this area to upload
             </p>
             <p class="ant-upload-hint">
-                Support for a single or bulk upload. Strictly prohibit from uploading company data or other
-                band files
+                Support for a single or bulk upload. Strictly prohibit from uploading
+                company data or other band files
             </p>
         </a-upload-dragger>
 
@@ -71,9 +80,9 @@
 </template>
 
 <script>
-    import Axios from "axios";
+  import Axios from "axios";
 
-    export default {
+  export default {
         data() {
             return {
                 form: this.$form.createForm(this),
@@ -82,57 +91,56 @@
             };
         },
 
-
         beforeCreate() {
             // 读取文件
             FileReader.prototype.reading = function ({encode} = pms) {
-                let bytes = new Uint8Array(this.result);    //无符号整型数组
-                let text = new TextDecoder(encode || 'UTF-8').decode(bytes);
+                let bytes = new Uint8Array(this.result); //无符号整型数组
+                let text = new TextDecoder(encode || "UTF-8").decode(bytes);
                 return text;
             };
             /* 重写readAsBinaryString函数 */
             FileReader.prototype.readAsBinaryString = function (f) {
-                if (!this.onload)       //如果this未重写onload函数，则创建一个公共处理方式
-                    this.onload = e => {  //在this.onload函数中，完成公共处理
+                if (!this.onload)
+                    //如果this未重写onload函数，则创建一个公共处理方式
+                    this.onload = e => {
+                        //在this.onload函数中，完成公共处理
                         let rs = this.reading();
                         console.log(rs);
                     };
-                this.readAsArrayBuffer(f);  //内部会回调this.onload方法
+                this.readAsArrayBuffer(f); //内部会回调this.onload方法
             };
         },
 
-
         methods: {
-            cleanText(){
+            cleanText() {
                 this.form.resetFields();
             },
             read(f) {
                 let rd = new FileReader();
                 rd.onload = e => {
                     //this.readAsArrayBuffer函数内，会回调this.onload函数。在这里处理结果
-                    let cont = rd.reading({encode: 'GBK'});
+                    let cont = rd.reading({encode: "GBK"});
                     console.log(cont);
                     this.form.setFieldsValue({
                         jcl: cont
-                    })
+                    });
                 };
                 rd.readAsBinaryString(f);
             },
 
             handleChange(info) {
                 const status = info.file.status;
-                if (status !== 'uploading') {
+                if (status !== "uploading") {
                     console.log(info.file, info.fileList);
                 }
-                if (status === 'done') {
+                if (status === "done") {
                     this.$message.success(`${info.file.name} file uploaded successfully.`);
-                    console.log('成功加载文件');
+                    console.log("成功加载文件");
                     this.read(info.file.originFileObj);
-                } else if (status === 'error') {
+                } else if (status === "error") {
                     this.$message.error(`${info.file.name} file upload failed.`);
                 }
             },
-
 
             async handleSubmit(e) {
                 e.preventDefault();

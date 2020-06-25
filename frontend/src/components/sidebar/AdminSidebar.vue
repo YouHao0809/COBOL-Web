@@ -53,7 +53,7 @@ export default {
           icon: "code"
         },
         {
-          name: "SMP实验????????",
+          name: "主机软件实验（SMP/E)",
           path: "smp",
           icon: "code"
         },

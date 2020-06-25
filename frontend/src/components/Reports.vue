@@ -30,6 +30,7 @@
         </span>
       </a-table>
     </a-spin>
+
     <a-modal
       title="朋友，确定提交么？"
       v-model="visible"
@@ -63,7 +64,6 @@
       <p>确定提交报告么？</p>
     </a-modal>
   </div>
-
 </template>
 
 <script>
@@ -83,8 +83,43 @@ const columns = [
 
 const data = [
   {
-    name: "COBOL子程序",
+    name: "安全管理（RACF）",
+    labId: "RACF",
+    status: "",
+    score: "",
+    comment: ""
+  },
+  {
+    name: "存储管理（SMS）",
+    labId: "SMS",
+    status: "",
+    score: "",
+    comment: ""
+  },
+  {
+    name: "目录管理（Catalog）",
     labId: "CATALOG",
+    status: "",
+    score: "",
+    comment: ""
+  },
+  {
+    name: "系统命令（MVS）",
+    labId: "MVS",
+    status: "",
+    score: "",
+    comment: ""
+  },
+  {
+    name: "脚本语言（REXX）",
+    labId: "REXX",
+    status: "",
+    score: "",
+    comment: ""
+  },
+  {
+    name: "主机软件安装（SMP/E）",
+    labId: "SMP",
     status: "",
     score: "",
     comment: ""

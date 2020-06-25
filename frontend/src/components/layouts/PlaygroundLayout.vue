@@ -7,7 +7,7 @@
       v-model="this.collapsed"
       :width="280"
     >
-      <div class="logo"><span>实验列表</span></div>
+      <div class="logo"><span>z/OS</span></div>
       <SidebarMenu />
     </a-layout-sider>
     <a-layout>
@@ -17,7 +17,7 @@
           :type="this.collapsed ? 'menu-unfold' : 'menu-fold'"
           @click="() => (this.collapsed = !this.collapsed)"
         />
-        <h2 class="title">主机软件开发期末项目</h2>
+        <h2 class="title">大型主机系统管理虚拟仿真实验平台</h2>
         <div style="margin-right: 24px;">
           <a-dropdown>
             <a><a-icon type="user" /> {{ username }} </a>

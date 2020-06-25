@@ -43,17 +43,6 @@ HLQ 为“teacherId”
 
 <img src="/img/smp/intro/2.png" alt="2" style="zoom:50%;" />
 
-<iframe 
-    width="100%" 
-    height="450" 
-    src="/video/作业1视频.mp4" 
-    scrolling="no" 
-    border="0" 
-    frameborder="no" 
-    framespacing="0" 
-    allowfullscreen="true">
-    暂时不支持视频插入。
-</iframe>
 
 
 

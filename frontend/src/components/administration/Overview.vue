@@ -57,12 +57,6 @@ export default {
           path: "rexx",
           submit: "x",
           review: 5
-        },
-        {
-          name: "主机软件安装（SMP/E）",
-          path: "smp",
-          submit: "x",
-          review: 5
         }
       ]
     };

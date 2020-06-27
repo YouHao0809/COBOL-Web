@@ -49,8 +49,8 @@
                         icon: "inbox",
                         children: [
                             {name: "实验介绍", path: "intro"},
-                            {name: "实验一：外部子程序实验", path: "lab1"},
-                            {name: "实验二：内部实验", path: "lab2"}
+                            {name: "实验一：内部子程序实验", path: "lab1"},
+                            {name: "实验二：外部子程序实验", path: "lab2"}
                         ]
                     }
                 ]

@@ -2,77 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e811727e-a874-4fa1-87d1-f8c6d004e5b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/api.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.backup.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.backup.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/QuestionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/QuestionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/QuestionMultiKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/QuestionMultiKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ReportEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ReportEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ReportMultiKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ReportMultiKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ResultEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ResultEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ResultMultiKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/ResultMultiKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/Entity/TeacherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/Entity/TeacherEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/SpmeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/SpmeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/CmdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/CmdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/DatasetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/DatasetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/DraftController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/DraftController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/JclController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/JclController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/RexxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/RexxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/SmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/SmsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/StudentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/StudentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/dao/QuestionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/dao/ReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/dao/ReportDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/dao/ResultDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/dao/ResultDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/dao/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsTranslate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsTranslate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/AcsValidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/BaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/BaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/DataClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/DataClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/DatasetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/DatasetInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/JobInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/JobInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/JobOutputListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/JobOutputListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/ManagementClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/ManagementClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/PoolStorageGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/PoolStorageGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/StorageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/StorageClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/domain/StorageGroupVolume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/domain/StorageGroupVolume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/CmdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/CmdService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/DatasetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/DatasetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/DraftService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/DraftService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/JclService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/JclService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/RexxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/RexxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/service/SmsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/utils/AuthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/utils/AuthUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/utils/PdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/utils/PdfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/utils/SslUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/utils/SslUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/utils/ZosmfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/utils/ZosmfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAB1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAB1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAC2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAC2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAD1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAD1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAIB" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAIB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAJ1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAJ1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAJ2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAJ2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAOB" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAOB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAS1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jcl/sys1/sacbcntl/ACBJBAS1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spme/SpmeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spme/SpmeApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spme/utils/PdfUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spme/utils/PdfUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -104,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dZOWpbcv9k84M5jQEuBAusZzJg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -167,6 +100,7 @@
       <workItem from="1592796950656" duration="4000" />
       <workItem from="1592874023544" duration="157000" />
       <workItem from="1592895137282" duration="154000" />
+      <workItem from="1593252708510" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="修复了一些bug">
       <created>1592647376890</created>

@@ -10,7 +10,7 @@ export default {
             case "TEACHER":
                 return "/administration";
             case "STUDENT":
-                return "/playground";
+                return "/playground/ispf";
             default:
                 return "/login";
         }

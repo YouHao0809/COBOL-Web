@@ -1,10 +1,11 @@
 <template>
     <div class="menu-container">
         <a-menu
+                style="background: #E6F7FF"
                 :defaultOpenKeys="defaultOpenKeys"
                 @click="handleMenuClick"
                 mode="inline"
-                theme="dark"
+                theme="white"
                 v-model="selectedKeys"
         >
             <a-sub-menu :key="'/playground/' + menu.path" v-for="menu in menuConfig">

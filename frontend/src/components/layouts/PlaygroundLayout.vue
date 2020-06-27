@@ -1,24 +1,25 @@
 <template>
     <a-layout :class="{ collapsed: collapsed }" class="layout">
         <a-layout-sider
+                style="background: #E6F7FF"
                 :collapsible="true"
                 :trigger="null"
                 :width="280"
                 class="sidebar"
                 v-model="this.collapsed"
         >
-            <div class="logo"><span>实验列表</span></div>
+            <div class="logo" style="color:#000000"><span>实验区</span></div>
             <SidebarMenu/>
         </a-layout-sider>
         <a-layout>
-            <a-layout-header style="display: flex; background: #fff; padding: 0">
+            <a-layout-header style="display: flex; background: lightskyblue; padding: 0">
                 <a-icon
                         :type="this.collapsed ? 'menu-unfold' : 'menu-fold'"
                         @click="() => (this.collapsed = !this.collapsed)"
                         class="trigger"
                 />
-                <h2 class="title">主机软件开发期末项目</h2>
-                <div style="margin-right: 24px;">
+                <h2 class="title" style="color:#ffffff">主机软件开发期末项目</h2>
+                <div style="color:#ffffff; margin-right: 24px;">
                     <a-dropdown>
                         <a>
                             <a-icon type="user"/>

@@ -13,10 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.io.*;
 import java.util.*;
 
-/**
- * @author 徐仁和
- * @author 李庆国
- */
+
 @RestController
 @RequestMapping("/db")
 public class ReportController {

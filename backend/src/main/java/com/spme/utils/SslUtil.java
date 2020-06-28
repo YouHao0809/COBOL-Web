@@ -21,7 +21,6 @@ import java.security.cert.X509Certificate;
  * 信任https证书
  * 参考https://blog.csdn.net/puhaiyang/article/details/84068733
  *
- * @author 李庆国
  */
 public class SslUtil {
     public static CloseableHttpClient SslHttpClientBuild() {

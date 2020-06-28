@@ -21,8 +21,6 @@ import java.util.zip.ZipOutputStream;
 /**
  * PDF相关的操作
  *
- * @author 李庆国
- * @author 徐仁和
  */
 public class PdfUtil {
 

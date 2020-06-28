@@ -7,9 +7,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 
-/**
- * @author Qingguo Li
- */
+
 @Service
 public class RexxService {
 

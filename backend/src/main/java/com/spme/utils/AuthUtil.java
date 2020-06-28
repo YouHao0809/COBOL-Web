@@ -2,12 +2,6 @@ package com.spme.utils;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * 鉴定当前用户是否已登录主机，或是否具有教师权限
- * 未拥有权限时返回true
- *
- * @author 李庆国
- */
 public class AuthUtil {
     public static boolean notLogin(HttpSession session) {
         Object ZOSMF_JSESSIONID = session.getAttribute("ZOSMF_JSESSIONID");

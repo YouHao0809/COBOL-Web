@@ -13,9 +13,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 
-/**
- * @author Qingguo Li
- */
+
 @Controller
 public class CmdController {
 

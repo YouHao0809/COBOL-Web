@@ -17,7 +17,6 @@ import java.util.Map;
 /**
  * login, logout and getting login info
  *
- * @author 李庆国
  */
 @Controller
 public class LoginController {

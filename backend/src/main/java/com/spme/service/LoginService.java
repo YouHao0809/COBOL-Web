@@ -22,9 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author 李庆国
- */
+
 @Service
 public class LoginService {
 

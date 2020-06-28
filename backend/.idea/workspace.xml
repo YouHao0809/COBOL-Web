@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e811727e-a874-4fa1-87d1-f8c6d004e5b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/DraftController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/DraftController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spme/controller/StudentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spme/controller/StudentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/intro.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab6.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab7.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab8.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/catalog/lab9.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/img/catalog/intro/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/public/img/catalog/lab4/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Catalog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Reports.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Reports.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/administration/LabDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/administration/LabDetail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/administration/Overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/administration/Overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/sidebar/AdminSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/sidebar/AdminSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/sidebar/PlaygroundSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/sidebar/PlaygroundSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/router/routes/playground.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/router/routes/playground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/subroutine/lab1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/docs/subroutine/lab1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/docs/subroutine/lab2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/docs/subroutine/lab2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/img/subroutine/intro/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/img/subroutine/lab4/1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +102,7 @@
       <workItem from="1592874023544" duration="157000" />
       <workItem from="1592895137282" duration="154000" />
       <workItem from="1593252708510" duration="1521000" />
-      <workItem from="1593300196133" duration="1628000" />
+      <workItem from="1593300196133" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="修复了一些bug">
       <created>1592647376890</created>

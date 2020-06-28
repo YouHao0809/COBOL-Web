@@ -22,7 +22,7 @@
 
 将上面的内部子程序改写成外部子程序。
 
-调用程序
+**步骤一：**编写调用程序
 
 ```cobol
 IDENTIFICATION DIVISION.
@@ -34,13 +34,13 @@ DATA DIVISION.
    01 WS-STUDENT-NAME PIC A(15) VALUE 'Tim'.
 
 PROCEDURE DIVISION.
-   CALL 'UTIL' USING BY CONTENT WS-STUDENT-ID, BY CONTENT WS-STUDENT-NAME.
+   CALL 'UTIL' USING WS-STUDENT-ID, WS-STUDENT-NAME.
    DISPLAY 'Student Id : ' WS-STUDENT-ID
    DISPLAY 'Student Name : ' WS-STUDENT-NAME
 STOP RUN.
 ```
 
-被调用程序
+**步骤二：**编写被调用程序
 
 ```cobol
 IDENTIFICATION DIVISION.
@@ -57,18 +57,34 @@ PROCEDURE DIVISION USING LS-STUDENT-ID, LS-STUDENT-NAME.
 EXIT PROGRAM.
 ```
 
-用JCL执行上述COBOL程序
+**步骤三：**编写用JCL执行上述COBOL程序
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gg7qfmc4b9j30no0fk0xn.jpg" alt="image-20200628091127574" style="zoom: 50%;" />
+
+用IGYWCL编译子程序，生成中间代码
 
 ```cobol
-//SAMPLE JOB(TESTJCL,XXXXXX),CLASS=A,MSGCLASS=C
-//STEP1 EXEC PGM=MAIN
+//yourid JOB 1,JHY,CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1),
+  // NOTIFY=&SYSUID
+//TEST JCLLIB ORDER=COBOL.V3R4.SIGYPROC
+//MAIN EXEC PROC=IGYWCL
+//LKED.SYSLIB DD DSN=yourId.COBOL.LOAD,DISP=SHR //COBOL.SYSLIB DD DSN=yourId.COBOL.SOURCE,DISP=SHR //LKED.SYSLMOD DD DSN=yourId.COBOL.LOAD(MAIN),DISP=SHR //COBOL.SYSIN DD DSN=yourId.COBOL.SRC(MAIN),DISP=SHR //SYSPRINT DD SYSOUT=*
 ```
 
-当编译和执行上面的程序，将产生以下结果：
+编译主程序，生成中间代码后运行
+
+```cobol
+//LALAL JOB NOTIFY=yourId,MSGLEVEL=(1,1),TIME=2 
+//STEP1 EXEC PROC=IGYWCLG                              
+//COBOL.SYSIN  DD DSN=yourId.COBOL.SRC(MAIN),DISP=SHR   
+//SYSPRINT DD SYSOUT=*                                 
+```
+
+**步骤四：**编写当编译和执行上面的程序，将产生以下结果：
 
 ```cobol
 In Called Program
-Student Id : 1000
+Student Id : 1111
 Student Name : Tim
 ```
 

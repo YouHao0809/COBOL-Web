@@ -6,9 +6,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 
 
-/**
- * @author Qingguo Li
- */
 @Service
 public class CmdService {
 

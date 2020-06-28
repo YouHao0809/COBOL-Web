@@ -16,7 +16,6 @@ import java.util.Map;
  * z/OS version: V2R1
  * Ref: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.1.0/com.ibm.zos.v2r1.idas200/job.htm
  *
- * @author Qingguo Li
  */
 @Service
 public class SmsService {

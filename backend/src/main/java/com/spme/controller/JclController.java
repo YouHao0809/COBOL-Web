@@ -15,9 +15,6 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author Qingguo Li
- */
 @Controller
 public class JclController {
 

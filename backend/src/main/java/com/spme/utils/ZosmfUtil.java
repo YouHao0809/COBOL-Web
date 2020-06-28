@@ -11,7 +11,6 @@ import javax.servlet.http.HttpSession;
 /**
  * Methods to communicate with z/OSMF
  *
- * @author Qingguo Li
  */
 public class ZosmfUtil {
 

@@ -19,11 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author 杨言
- * @author 徐仁和
- * @author 李庆国
- */
+
 @RestController
 @RequestMapping("/db")
 public class StudentsController {

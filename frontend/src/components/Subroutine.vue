@@ -1,12 +1,12 @@
 <template>
-    <LabContainer lab-name="Catalog"/>
+    <LabContainer lab-name="Subroutine"/>
 </template>
 
 <script>
   import LabContainer from "@/components/common/lab/LabContainer";
 
   export default {
-        name: "Catalog",
+        name: "Subroutine",
         components: {
             LabContainer
         }

@@ -28,13 +28,16 @@ public class DraftController {
     @CrossOrigin(origins = "*", allowCredentials = "true")
     @RequestMapping(value = "/draft", method = RequestMethod.POST)
     public ResponseEntity<String> submitDraft(@RequestBody List<Map<String, Object>> req, HttpSession session) {
+        System.out.println("4444444444");
         if (AuthUtil.notLogin(session)) {
             return ResponseEntity.status(401).body("unauthorized");
         }
         switch (ds.submitDraft(req, session)) {
             case "lab submitted":
+                System.out.println("1111111");
                 return ResponseEntity.status(400).body("lab submitted");
             case "no such question":
+                System.out.println("2222222");
                 return ResponseEntity.status(400).body("no such question");
         }
         return ResponseEntity.ok("successful");

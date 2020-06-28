@@ -9,8 +9,8 @@ export default {
             component: () => import("@/components/Reports")
         },
         {
-            path: "catalog/:subLab",
-            component: () => import("@/components/Catalog")
+            path: "subroutine/:subLab",
+            component: () => import("@/components/Subroutine")
         },
         {
             path: "ispf",

@@ -45,7 +45,7 @@
                 menuConfig: [
                     {
                         name: "COBOL子程序实验",
-                        path: "catalog",
+                        path: "subroutine",
                         icon: "inbox",
                         children: [
                             {name: "实验介绍", path: "intro"},

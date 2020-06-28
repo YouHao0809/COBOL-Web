@@ -30,32 +30,8 @@
                 isLoading: true,
                 data: [
                     {
-                        name: "安全管理（RACF）",
-                        path: "racf",
-                        submit: "x",
-                        review: 5
-                    },
-                    {
-                        name: "存储管理（SMS）",
-                        path: "sms",
-                        submit: "x",
-                        review: 5
-                    },
-                    {
-                        name: "目录管理（Catalog）",
-                        path: "catalog",
-                        submit: "x",
-                        review: 5
-                    },
-                    {
-                        name: "系统命令（MVS）",
-                        path: "mvs",
-                        submit: "x",
-                        review: 5
-                    },
-                    {
-                        name: "脚本语言（REXX）",
-                        path: "rexx",
+                        name: "子程序调用实验",
+                        path: "subroutine",
                         submit: "x",
                         review: 5
                     }

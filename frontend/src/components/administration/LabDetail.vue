@@ -160,20 +160,8 @@
             formatName(name) {
                 let title = "";
                 switch (name) {
-                    case "racf":
-                        title = "安全管理（RACF）";
-                        break;
-                    case "sms":
-                        title = "存储管理（SMS）";
-                        break;
-                    case "catalog":
-                        title = "目录管理（Catalog）";
-                        break;
-                    case "mvs":
-                        title = "系统命令（MVS）";
-                        break;
-                    case "rexx":
-                        title = "脚本语言（REXX）";
+                    case "subroutine":
+                        title = "子程序实验";
                         break;
                     default:
                         break;

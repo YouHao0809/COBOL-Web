@@ -87,8 +87,10 @@ public class StudentsController {
     @CrossOrigin(origins = "*", allowCredentials = "true")
     @RequestMapping(value = "/subAnswer", method = RequestMethod.POST)
     public List<Map<String, Object>> subAnswer(@RequestBody List<Map<String, Object>> req, HttpSession session) {
+        System.out.println("allalla");
         if (AuthUtil.notLogin(session)) {
             //没有token信息，授权失败
+            System.out.println("oho");
             throw new UnauthorizedException();
         } else {
             String sql_search = "select * from report where uid=? and lab=?;";
@@ -108,6 +110,7 @@ public class StudentsController {
 
                 List<Map<String, Object>> result_list = jdbcTemplate.queryForList(sql_search, uid, lab);
                 if (result_list.size() == 0) {
+                    System.out.println("sha????");
                     jdbcTemplate.update(sql_insert, uid, lab, step, lower_lab, question_id, answer, answer);
                 } else {
                     if (result_list.get(0).get("is_draft").equals("N")) {
@@ -193,7 +196,7 @@ public class StudentsController {
             return ResponseEntity.status(401).body(null);
         } else {
             String account = session.getAttribute("ZOSMF_Account").toString();
-            String[] labs = {"RACF", "SMS", "CATALOG", "REXX", "MVS","SMP"};
+            String[] labs = {"RACF", "SMS", "CATALOG", "REXX", "MVS","SMP","SUBROUTINE"};
             String sql = "select is_draft from report where uid=? and lab=?";
             List<Map<String, String>> ans = new ArrayList<>();
             for (String lab : labs) {

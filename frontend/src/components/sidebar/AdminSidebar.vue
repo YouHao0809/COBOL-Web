@@ -28,39 +28,9 @@
                 selectedKeys: [this.$route.path],
                 menuConfig: [
                     {
-                        name: "实验总览",
-                        path: "",
-                        icon: "home"
-                    },
-                    {
-                        name: "安全管理（RACF）",
-                        path: "racf",
-                        icon: "safety"
-                    },
-                    {
-                        name: "存储管理（SMS）",
-                        path: "sms",
-                        icon: "hdd"
-                    },
-                    {
-                        name: "目录管理（Catalog）",
-                        path: "catalog",
+                        name: "子程序实验",
+                        path: "subroutine",
                         icon: "inbox"
-                    },
-                    {
-                        name: "系统命令（MVS）",
-                        path: "mvs",
-                        icon: "code"
-                    },
-                    {
-                        name: "SMP",
-                        path: "smp",
-                        icon: "code"
-                    },
-                    {
-                        name: "脚本语言（REXX）",
-                        path: "rexx",
-                        icon: "snippets"
                     }
                 ]
             };

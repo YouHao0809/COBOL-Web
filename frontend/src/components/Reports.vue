@@ -83,7 +83,7 @@
     const data = [
         {
             name: "COBOL子程序",
-            labId: "CATALOG",
+            labId: "Subroutine",
             status: "",
             score: "",
             comment: ""
